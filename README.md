@@ -23,3 +23,9 @@ Any version of python should work. The software UPX, an PE compression tool is b
 `--ultra-optimize` - Strips out every last bit of python that is not needed for the exe to run, On rare occasions can break the exe.
 
 `--icon` - Sets an icon for the output exe. 
+
+# What does it do? 
+
+This tool uses your existing Python installation as a base, removes components that are not required by your script, and packages only the necessary runtime and dependencies into a single executable.
+
+By minimizing unused libraries and aggressively optimizing the bundled environment, the resulting executable is significantly smaller than those produced by tools such as Nuitka and PyInstaller in comparable builds.
