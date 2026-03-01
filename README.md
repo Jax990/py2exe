@@ -29,3 +29,5 @@ Any version of python should work. The software UPX, an PE compression tool is b
 This tool uses your existing Python installation as a base, removes components that are not required by your script, and packages only the necessary runtime and dependencies into a single executable.
 
 By minimizing unused libraries and aggressively optimizing the bundled environment, the resulting executable is significantly smaller than those produced by tools such as Nuitka and PyInstaller in comparable builds.
+
+This software was tested on Windows 10 and 11. Older versions of Windows may have issues.
